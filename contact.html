@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Aquaphoria - Web Design</title>
+  <link rel="icon" href="img/favicon-32x32.png"/>
+   <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css">
+   <link href="https://fonts.googleapis.com/css2?family=Didact+Gothic&display=swap" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="css/style.production.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<section class="container">
+<body>
+  <header class="page-header">
+    <div class="logo-contact">
+      <h1 id="contact">Contact</h1>
+      <img src="img/logo_200x70V2.png" id=logoimg alt="Aquaphoria Agency logo">
+    </div>
+
+    <nav class="main-navigation page-header__item">
+        <ul role="menubar" class="navigation-list">
+          <li role="presentation">
+            <a href="index.html" role="menuitem" class="navigation-list__item">Home</a>
+          </li>
+          <li role="presentation">
+            <a href="about.html" role="menuitem" class="navigation-list__item">About</a>
+          </li>
+          <li role="presentation">
+            <a href="contact.html" role="menuitem" class="navigation-list__item--active">Contact</a>
+          </li>
+          <li role="presentation">
+            <a href="work.html" role="menuitem" class="navigation-list__item">Work</a>
+          </li>
+        </ul>
+    </nav>
+  </header>
+
+<div>
+  Diego F. Durán Báez<br>
+  Bredowstr. 41<br>
+  10551 Berlin<br>
+  Germany<br>
+  <br>
+  <a href="tel:+4917665632531">+4917665632531</a><br>
+  <a href="mailto:duranba.diego@gmail.com">duranba.diego@gmail.com</a>
+</div>
+
+<div>
+  <form action="" method="post" id="contact-form">
+    <label class="standard-label" for="contact-email">E-mail: </label>
+    <input type="email" id="contact-email" required>
+
+    <label class="standard-label" for="contact-telephone">Telephone: </label>
+    <input type="tel" pattern=\d{3}[\-]\d{3}[\-]\d{4} id=contact-telephone>
+
+    <label class="standard-label" for="contact-message">Message: </label>
+    <textarea maxlength="240" required id=contact-message></textarea>
+    <input type="submit" value="send message">
+  </form>
+</div>
+
+
+<footer class="page-footer">
+  <p>Find me on</p>
+  <!-- links are just placeholders to test href -->
+  <div class="social-media">
+    <a href=https://github.com/ class="social-media__icon" target="_blank">
+      <img src="img/github_iconv2.svg" alt="github">
+    </a>
+    <a href=https://twitter.com/ class="social-media__icon" target="_blank">
+      <img src="img/twitter_icon.svg" alt="twitter">
+    </a>
+    <a href=https://linkedin.com/ class="social-media__icon" target="_blank">
+      <img src="img/linkedin_icon.svg" alt="linkedin">
+    </a>
+  </div>
+</footer>
+
+<script src="js/tota11y.min.js"></script>
+</body>
+</section>
+
+</html>
