@@ -24,8 +24,8 @@ Main Font: "Didact Gothic"
     --button-primary-color: #008080;
     --button-text-color: #fff;
   }
-  
-  
+
+
   body {
     background-color: var(--primary-background-color);
     font-family: "Didact Gothic";
@@ -48,7 +48,7 @@ Main Font: "Didact Gothic"
     font-size: 18px;
     font-weight: 400;
   }
-  
+
   th {
     font-weight: 700;
   }
@@ -59,7 +59,7 @@ Main Font: "Didact Gothic"
     color: var(--link-color);
     font-size: 15px;
   }
-  
+
   a:visited {
     /* visited link */
     color: none;
@@ -169,7 +169,7 @@ Main Font: "Didact Gothic"
         align-self: center;
     border-radius: 10%;
   }
-  
+
   /* TEST "mywork" page */
   .page__content {
     display: -webkit-box;
@@ -186,7 +186,7 @@ Main Font: "Didact Gothic"
     height: 400px;
   }
   /*TEST End my work page*/
-  
+
   .profile__portrait {
     float:left;
     margin-right: 40px;
@@ -240,14 +240,14 @@ Main Font: "Didact Gothic"
     display: inline-block;
     margin-left: 15px;
   }
-  
+
   /* start grid fallback */
   .grid__item {
     display: inline-block;
     width: 33%;
    }
    /* end grid fallback */
-  
+
    @supports (display: grid) {
    .grid-project-list {
     display: -ms-grid;
@@ -274,7 +274,7 @@ Main Font: "Didact Gothic"
     -ms-grid-row-span: 2;
     grid-row-end: 3;
   }
-  /* or 
+  /* or
   .grid__item:last-child {
     grid-column: 3 / 3;
     grid-row: 1 / 3;
@@ -284,7 +284,7 @@ Main Font: "Didact Gothic"
     text-decoration: none;
   }
    }
-  
+
    /* media adjusts the grid according to the screen size */
   @media all and (max-width: 500px) {
     .grid-project-list {
@@ -301,7 +301,7 @@ Main Font: "Didact Gothic"
     }
   }
   /* additional intermediary step where you go from a 3-column grid to a 2-column grid when the screen’s width is greater than 500px but less than 750px*/
-  
+
   @media all and (min-width: 500px) and (max-width: 750px){
     .grid-project-list {
       -ms-grid-columns: 1fr 10px 1fr;
@@ -316,11 +316,11 @@ Main Font: "Didact Gothic"
       font-size: 22px;
     }
   }
-  
+
   .about-title {
     text-align: center;
   }
-  
+
   @-webkit-keyframes color-change {
     0% {
       fill: #edc655;
@@ -332,7 +332,7 @@ Main Font: "Didact Gothic"
       fill: #f76414;
     }
   }
-  
+
   @keyframes color-change {
     0% {
       fill: #edc655;
@@ -360,7 +360,7 @@ Main Font: "Didact Gothic"
     animation: 4s color-change infinite alternate linear;
   }
   */
-  
+
   @-webkit-keyframes cloud-move {
     from {
       -webkit-transform: translate(0, 50px);
@@ -371,7 +371,7 @@ Main Font: "Didact Gothic"
               transform: translate(200px, 50px);
     }
   }
-  
+
   @keyframes cloud-move {
     from {
       -webkit-transform: translate(0, 50px);
@@ -466,7 +466,7 @@ Main Font: "Didact Gothic"
     -webkit-animation-timing-function: linear;
             animation-timing-function: linear;
   }
-  
+
   @-webkit-keyframes angel-color-change {
     0% {
       fill: #000;
@@ -478,7 +478,7 @@ Main Font: "Didact Gothic"
       fill: #eff30a;
     }
   }
-  
+
   @keyframes angel-color-change {
     0% {
       fill: #000;
@@ -503,4 +503,3 @@ Main Font: "Didact Gothic"
     -webkit-animation-timing-function: linear;
             animation-timing-function: linear;
   }
-  
