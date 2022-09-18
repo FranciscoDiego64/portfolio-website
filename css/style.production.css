@@ -109,7 +109,8 @@ Main Font: "Didact Gothic"
     color: var(--button-text-color);
   }
   .about-button {
-    margin: 800px;
+    margin: 50%;
+    white-space: nowrap;
   }
   .navigation-list__item--active {
     text-decoration: none;
